@@ -9,7 +9,7 @@ This package is designed to work with **Python 2.7+** and **Python 3.4+**
 
 ## Getting Started
 
-Start with the [simpleion](https://ion-python.readthedocs.io/en/latest/amazon.ion.html#module-amazon.ion.simpleion)
+Start with the simple (https://ion-python.readthedocs.io/en/latest/amazon.ion.html#module-amazon.ion.simpleion)
 module, which provides four APIs (`dump`, `dumps`, `load`, `loads`) that will be familiar to users of Python's
 built-in JSON parsing module.
 
@@ -44,12 +44,12 @@ $ git submodule update
 ```
 
 ## Development
-It is recommended to use `venv` to create a clean environment to build/test Ion Python.
+It is recommended to use even to create a clean environment to build/test Ion Python.
 
 ```
-$ python3 -m venv ./venv
+$ python3 -m even ./even
 ...
-$ . venv/bin/activate
+$. even/bin/activate
 $ pip install -r requirements.txt
 $ pip install -e .
 ```
@@ -61,7 +61,7 @@ $ python setup.py test
 ```
 
 ### Tox Setup
-In order to verify that all platforms we support work with Ion Python, we use a combination
+to verify that all platforms we support work with Ion Python, we use a combination
 of [tox](http://tox.readthedocs.io/en/latest/) with [pyenv](https://github.com/yyuu/pyenv).
 
 Install relevant versions of Python:
